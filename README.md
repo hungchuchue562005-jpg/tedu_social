@@ -14,3 +14,5 @@
 - git init 
 - git commit -m "Initial commit"
 - git add *
+- git config --global user.name "rest-api"
+- git remote add origin https://github.com/hungchuchue562005-jpg/tedu_social.git
