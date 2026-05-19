@@ -9,6 +9,7 @@
 
 ## Command remmembers
 
+### lession 9 
 - Open terminal command mac : control + ` 
 - npm init or yarn init
 - git init 
@@ -17,3 +18,6 @@
 - git config --global user.name "rest-api"
 - git remote add origin https://github.com/hungchuchue562005-jpg/tedu_social.git
 - git push -u origin master 
+
+### Lession 10 
+- tsc --init 
