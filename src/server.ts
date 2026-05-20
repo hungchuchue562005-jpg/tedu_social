@@ -1,13 +1,20 @@
-import express from 'express'; 
+// import { Indexroute } from "./modules/index";   
+// import App from "./app";
+// import dotenv from "dotenv";
+// const routes = [new Indexroute()];
 
-const port = process.env.PORT || 3002;
+// const app = new App(routes);
 
-const app = express();
+// dotenv.config();
+// app.listen();   
 
-app.get('/', (req :express.Request, res :express.Response) => {
-  res.send('Hello, World!');
-});
+import "dotenv/config";
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+import { Indexroute } from "./modules/index";
+import App from "./app";
+
+const routes = [new Indexroute()];
+
+const app = new App(routes);
+
+app.listen();

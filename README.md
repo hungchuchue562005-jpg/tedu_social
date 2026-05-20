@@ -21,3 +21,7 @@
 
 ### Lession 10 
 - tsc --init 
+
+#### Lesstion 13
+- yarn add dotenv
+- yarn add cross-env --dev 
