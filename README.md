@@ -29,3 +29,12 @@
 #### lesstion 14 
 - yarn add hpp helmet morgan cors 
 - yarn add winston
+
+### lesstion 16 
+
+
+#### các thuộc tính đưuocj học 
+- Handle error middleware trong node 
+- debug node là kiểm soát từng bước
+- ghi log ra file với winston 
+
