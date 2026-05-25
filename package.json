@@ -8,15 +8,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "server": "nodemon -r tsconfig-paths/register src/server.ts"
+    "server": "nodemon -r tsconfig-paths/register src/server.ts"
   },
   "dependencies": {
+    "@types/gravatar": "^1.8.6",
+    "bcryptjs": "^3.0.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "envalid": "^8.1.1",
     "express": "^5.2.1",
+    "gravatar": "^1.8.2",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.6.2",
     "morgan": "^1.10.1",
     "winston": "^3.19.0"
@@ -25,6 +31,7 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/hpp": "^0.2.7",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.10",
     "cross-env": "^10.1.0",

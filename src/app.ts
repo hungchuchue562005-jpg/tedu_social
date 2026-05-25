@@ -11,15 +11,32 @@ import errorMiddleware from "./core/middleware/error.middleware";
 class App {
   public app: express.Application;
   public port: string | number;
-  public production : boolean ;
+  public production: boolean;
 
   constructor(routes: Route[]) {
     this.app = express();
     this.port = process.env.PORT || 3002;
     this.production = process.env.NODE_ENV === "production" ? true : false;
+
     this.connectToDatabase();
-    this.initializeRoutes(routes);
     this.initializeMiddleware();
+    this.initializeRoutes(routes);
+    this.initializeErrorHandling();
+    this.initializeErrorMiddleware();
+  }
+  private initializeMiddleware() {
+    if (this.production) {
+      this.app.use(morgan("combined"));
+      this.app.use(hpp());
+      this.app.use(helmet());
+      this.app.use(cors({ origin: "your.domain.com", credentials: true }));
+    } else {
+      this.app.use(morgan("dev"));
+      this.app.use(cors({ origin: true, credentials: true }));
+    }
+      this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+    this.app.use(errorMiddleware);
   }
 
   private initializeRoutes(routes: Route[]) {
@@ -28,44 +45,33 @@ class App {
     });
   }
 
+  private initializeErrorHandling() {
+    this.app.use(errorMiddleware);
+  }
+
   public listen() {
     this.app.listen(this.port, () => {
       Logger.info(`App is listening on the port ${this.port}`);
     });
   }
-
-  private initializeMiddleware() {
-        if (this.production) {
-            this.app.use(morgan("combined"));
-            this.app.use(hpp());
-            this.app.use(helmet());
-            this.app.use(cors({ origin: "your.domain.com", credentials: true }));
-        } else {
-            this.app.use(morgan("dev"));
-            this.app.use(cors({ origin: true, credentials: true }));
-        }
-        this.app.use(errorMiddleware);
-    }
-private async connectToDatabase() {
-
+  private  initializeErrorMiddleware() {
+    this.app.use(errorMiddleware);
+  }
+  private async connectToDatabase() {
     const connectString = process.env.MONGODB_URI;
 
     if (!connectString) {
-        Logger.error("Connection string is not defined in environment variables");
-        return;
+      Logger.error("Connection string is not defined in environment variables");
+      return;
     }
+
     try {
-
-        await mongoose.connect(connectString);
-
-        Logger.info("Connected to MongoDB successfully");
-
+      await mongoose.connect(connectString);
+      Logger.info("Connected to MongoDB successfully");
     } catch (reason) {
-
-        Logger.error("Failed to connect to MongoDB", reason);
-
+      Logger.error("Failed to connect to MongoDB", reason);
     }
-}
+  }
 }
 
 export default App;

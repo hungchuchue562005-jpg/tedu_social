@@ -31,10 +31,12 @@
 - yarn add winston
 
 ### lesstion 16 
-
+- https://www.npmjs.com/package/class-validator
 
 #### các thuộc tính đưuocj học 
 - Handle error middleware trong node 
 - debug node là kiểm soát từng bước
 - ghi log ra file với winston 
-
+- cách đẩy code lên git thì hãy thực hiện: git message hoặc init 
+- đồng bộ và bất đồng bộ
+- dùng public async thì hãy phải có .exec(); --> nếu khi nó bị lỗi 
