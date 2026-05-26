@@ -40,3 +40,5 @@
 - cách đẩy code lên git thì hãy thực hiện: git message hoặc init 
 - đồng bộ và bất đồng bộ
 - dùng public async thì hãy phải có .exec(); --> nếu khi nó bị lỗi 
+- jwt  e 
+- 1 query thì nó chỉ dc 1 exec() thôi 

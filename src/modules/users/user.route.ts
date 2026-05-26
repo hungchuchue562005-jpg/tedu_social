@@ -3,6 +3,7 @@ import {Route} from "@core/interface";
 import UserController from "./users.controller";
 import validationMiddleware from "@/core/middleware/validation.middleware";
 import RegisterDto from "./dtos/register.dto";
+import { authMiddleware } from "@/core/middleware";
 
 export default class UsersRoute implements Route {
     public path = '/api/users';
@@ -25,11 +26,17 @@ export default class UsersRoute implements Route {
     this.userController.getUserById
   );
 
-  this.router.put(
-    "/:id",
-    validationMiddleware(RegisterDto, true),
+    this.router.get( "/" ,this.userController.getAll );
+   
+    this.router.get(  "/paging/:page",
+    this.userController.getAllPaging
+  );
+
+  this.router.put(  "/:id",   validationMiddleware(RegisterDto, true),
     this.userController.updateUser
   );
+
+  this.router.delete( "/:id", authMiddleware, this.userController.deleteUser  );
 }
 
     

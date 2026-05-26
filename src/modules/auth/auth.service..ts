@@ -30,16 +30,9 @@ class AuthService {
         }   
           return user;
     }
+    
 
-      public async getAll (): Promise<IUser[]>  {
-        const users = await this.userSchema.find() .exec();
-          return users;
-    }
-
-        public async getAllPaging (): Promise<IUser[]>  {
-        const users = await this.userSchema.find() .exec();
-          return users;
-    }
+  
 
 
     private createToken(user: IUser): TokenData {
