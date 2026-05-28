@@ -101,10 +101,29 @@ const ProfileSchema = new mongoose.Schema({
                 type: String,
             }
         },
+         followings: [
+    {
+      user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'user',
+      },
+    },
+  ],
+  followers: [
+    {
+      user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'user',
+      },
+    },
+  ],
+
+
         date: {
             type: Date,
             default: Date.now
         }
+
 });
 
 export default mongoose.model<IProfile & Document>("profile", ProfileSchema);

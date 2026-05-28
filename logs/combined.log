@@ -2365,3 +2365,343 @@
 [32minfo[39m: [32mApp is listening on the port 3002[39m
 [32minfo[39m: [32mApp is listening on the port 3002[39m
 [32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value " 6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `posts.findOne()` buffering timed out after 10000ms[39m
+[31merror[39m: [31mFailed to connect to MongoDB queryTxt ECONNREFUSED cluster0.mpalqor.mongodb.net[39m {"code":"ECONNREFUSED","hostname":"cluster0.mpalqor.mongodb.net","stack":"Error: queryTxt ECONNREFUSED cluster0.mpalqor.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"queryTxt"}
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a17a38c07f332f54848f4d5\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net[39m {"cause":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1779940303}},"signature":{"hash":{"$binary":{"base64":"774pUz7KuMi7WA0uW976iLJ9qck=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22312,"lastWriteDate":{"$date":"2026-05-28T03:51:43Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":104,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31303,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1779940303}},"signature":{"hash":{"$binary":{"base64":"774pUz7KuMi7WA0uW976iLJ9qck=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22311,"lastWriteDate":{"$date":"2026-05-28T03:51:43Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":57,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":113,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1779940303}},"signature":{"hash":{"$binary":{"base64":"774pUz7KuMi7WA0uW976iLJ9qck=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22312,"lastWriteDate":{"$date":"2026-05-28T03:51:43Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":104,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31303,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":5,"t":1779940303}},"signature":{"hash":{"$binary":{"base64":"774pUz7KuMi7WA0uW976iLJ9qck=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22311,"lastWriteDate":{"$date":"2026-05-28T03:51:43Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":57,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":113,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post has not yet been liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post has not yet been liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Credential is not valid[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Comment not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Comment not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net[39m {"cause":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779951820}},"signature":{"hash":{"$binary":{"base64":"i7VsAmQgGSs3++rx6HPkgdrcKS4=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":30144,"lastWriteDate":{"$date":"2026-05-28T07:03:40Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":54,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":100.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31257,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31256,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779951820}},"signature":{"hash":{"$binary":{"base64":"i7VsAmQgGSs3++rx6HPkgdrcKS4=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":30144,"lastWriteDate":{"$date":"2026-05-28T07:03:40Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":54,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":100.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31257,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31256,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Comment not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Comment not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Comment not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post has not yet been shared[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post has not yet been shared[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post has not yet been shared[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c37a145f52ecd5d56f05\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c37a145f52ecd5d56f05\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c37a145f52ecd5d56f05\n" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "6a16c6bbaac9d78ff0b6258d\n\n" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post already liked[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m

@@ -48,7 +48,43 @@ import Route from '@/core/interface/routes.interface';
       '/:id',authMiddleware,
       this.postController.deletePost
     );
+
+    this.router.post (
+        '/like/:id',
+        authMiddleware,
+        this.postController.likePost
+    )
+     this.router.delete (
+        '/unlike/:id',
+        authMiddleware,
+        this.postController.unlikePost
+    )
+
+       this.router.post (
+        '/comments/:id',
+        authMiddleware,
+      validationMiddleware(CreatePostDto, true),
+        this.postController.addComment
+    )
+     this.router.delete (
+        '/comments/:id/:comment_id',
+        authMiddleware,
+        this.postController.removeComment
+    )
+
+    this.router.post(
+      '/shares/:id',
+      authMiddleware,
+      this.postController.sharePost
+    );
+    this.router.delete(
+      '/shares/:id',
+      authMiddleware,
+      this.postController.removeSharePost
+    );
+
   }
+
 }
 
 export default PostsRoute;

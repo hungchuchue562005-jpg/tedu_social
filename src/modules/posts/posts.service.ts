@@ -1,9 +1,11 @@
 import { HttpException } from "@/core/exceptions";
 import { UserSchema } from "../users";
 import CreatePostDto from "./dtos/create_post.dto";
-import { IPost } from "./posts.interface";
+import { IComment, ILike, IPost, IShare } from "./posts.interface";
 import {PostSchema}  from ".";
 import IPagination from "@/core/interface/pagination.interface";
+import CreateCommentDto from "./dtos/create_comment.dto";
+import { NextFunction } from "express";
 export default class PostService {
   public async createPost(
     userId: string,
@@ -76,16 +78,125 @@ export default class PostService {
     } as IPagination<IPost>;
   }
 
-  public async deletePost(userId: string, postId: string): Promise<IPost> {
+   public async deletePost(userId: string, postId: string): Promise<IPost> {
     const post = await PostSchema.findById(postId).exec();
-    if (!post) throw new HttpException(400, 'Post is not found');
+    if (!post) throw new HttpException(400, 'Post not found');
 
-    if (post.user.toString() !== userId) {
-      throw new HttpException(401, 'User not authorized');
-        
-    }
+    if (post.user.toString() !== userId)
+      throw new HttpException(400, 'User is not authorized');
+
     await PostSchema.findByIdAndDelete(postId).exec();
-    return post;  
-}
 
+    return post;
+  }
+
+  public async likePost(userId: string, postId: string): Promise<ILike[]> {
+    const post = await PostSchema.findById(postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    if (post.likes.some((like: ILike) => like.user.toString() === userId)) {
+      throw new HttpException(400, 'Post already liked');
+    }
+
+    post.likes.unshift({ user: userId });
+
+    await post.save();
+    return post.likes;
+  }
+
+   public async unlikePost(userId: string, postId: string): Promise<ILike[]> {
+    const post = await PostSchema.findById(postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    if (!post.likes.some((like: ILike) => like.user.toString() === userId)) {
+      throw new HttpException(400, 'Post has not yet been liked');
+    }
+
+    // post.likes = post.likes.filter(({ user }) => user.toString() !== userId);
+
+    post.likes = [];
+
+    await post.save();
+    return post.likes;
+  }
+
+public async addComment(comment: CreateCommentDto): Promise<IComment[]> {
+    const post = await PostSchema.findById(comment.postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    const user = await UserSchema.findById(comment.userId)
+      .select('-password')
+      .exec();
+
+    if (!user) throw new HttpException(400, 'User not found');
+
+    const newComment = {
+      text: comment.text,
+      name: user.first_name + ' ' + user.last_name,
+      avatar: user.avatar,
+      user: comment.userId,
+    };
+
+    post.comments.unshift(newComment as IComment);
+    await post.save();
+    return post.comments;
+  }
+
+  public async removeComment(
+    commentId: string,
+    postId: string,
+    userId: string
+  ): Promise<IComment[]> {
+    const post = await PostSchema.findById(postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    const comment = post.comments.find((c) => c._id.toString() === commentId);
+    if (!comment) throw new HttpException(400, 'Comment not found');
+
+    // neu khac so voi user truyen vao thi khong duoc xoa comment
+    if (comment.user.toString() !== userId)
+      throw new HttpException(401, 'User not authorized');
+
+    post.comments = post.comments.filter(
+      ({ _id }) => _id.toString() !== commentId
+    );
+    await post.save();
+    return post.comments;
+  }
+
+  public async sharePost(userId: string, postId: string): Promise<ILike[]> {
+    const post = await PostSchema.findById(postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    if (
+      post.shares &&
+      post.shares.some((like: ILike) => like.user.toString() === userId)
+    ) {
+      throw new HttpException(400, 'Post already liked');
+    }
+    if (!post.shares) post.shares = [];
+
+    post.shares.unshift({ user: userId });
+
+    await post.save();
+    return post.shares;
+  }
+
+  public async removeShare(userId: string, postId: string): Promise<ILike[]> {
+    const post = await PostSchema.findById(postId).exec();
+    if (!post) throw new HttpException(400, 'Post not found');
+
+    if (
+      post.shares &&
+      !post.shares.some((share: ILike) => share.user.toString() === userId)
+    ) {
+      throw new HttpException(400, 'Post has not yet been shared');
+    }
+    if (!post.shares) post.shares = [];
+    post.shares = post.shares.filter(({ user }) => user.toString() !== userId);
+
+    await post.save();
+    return post.shares;
+  }
+   
 }

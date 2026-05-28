@@ -95,4 +95,131 @@ export default class PostsController {
     }
   };
  
+  public likePost = async (
+    req: Request <{ id: string }>,
+     res: Response, 
+     next: NextFunction) => {
+    try {
+      const postId = req.params.id;
+
+      const likes = await this.postService.likePost(req.user.id, postId);
+      res.status(200).json(likes);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public unlikePost = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const likes = await this.postService.unlikePost(req.user.id, postId);
+      res.status(200).json(likes);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public addComment = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const result = await this.postService.addComment({
+        text: req.body.text,
+        userId: req.user.id,
+        postId: postId,
+      });
+      res.status(200).json(result);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public removeComment = async (
+    req: Request <{ id: string; comment_id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const result = await this.postService.removeComment(
+        req.params.comment_id,
+        postId,
+        req.user.id
+      );
+      res.status(200).json(result);
+    } catch (error) {
+      next(error);
+    }
+    
+  };
+
+//    public sharePost = async (
+//     req: Request <{ id: string }>,
+//      res: Response, 
+//      next: NextFunction) => {
+//     try {
+//       const postId = req.params.id;
+
+//       const share = await this.postService.sharePost(req.user.id, postId);
+//       res.status(200).json(share);
+//     } catch (error) {
+//       next(error);
+//     }
+//   };
+
+//   public removeShare = async (
+//     req: Request <{ id: string }>,
+//     res: Response,
+//     next: NextFunction
+//   ) => {
+//     try {
+//       const postId = req.params.id;
+
+//       const share = await this.postService.removeShare(req.user.id, postId);
+//       res.status(200).json(share);
+//     } catch (error) {
+//       next(error);
+//     }
+//   };
+
+ public sharePost = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const shares = await this.postService.sharePost(req.user.id, postId);
+      res.status(200).json(shares);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public removeSharePost = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const shares = await this.postService.removeShare(req.user.id, postId);
+      res.status(200).json(shares);
+    } catch (error) {
+      next(error);
+    }
+  };
+
 }
