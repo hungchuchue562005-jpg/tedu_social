@@ -1518,3 +1518,797 @@
 [32minfo[39m: [32mApp is listening on the port 3002[39m
 [32minfo[39m: [32mConnected to MongoDB successfully[39m
 [31merror[39m: [31m[ERROR] - Status: 409 - Msg: You are not an user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: User id is not exist[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: User id is not exist[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: User id is not exist[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg:  You must using the difference email[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg:  You must using the difference email[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg:  You must using the difference email[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Your email has been used by another user[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Your email has been used by another user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net[39m {"cause":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779788230}},"signature":{"hash":{"$binary":{"base64":"JVtl9pbcHSvQJCFoFoKc5eRSV4M=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22315,"lastWriteDate":{"$date":"2026-05-26T09:37:10Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":55,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":105.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31282,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779788230}},"signature":{"hash":{"$binary":{"base64":"JVtl9pbcHSvQJCFoFoKc5eRSV4M=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22509,"lastWriteDate":{"$date":"2026-05-26T09:37:10Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":100.66666666666667,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779788230}},"signature":{"hash":{"$binary":{"base64":"JVtl9pbcHSvQJCFoFoKc5eRSV4M=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22315,"lastWriteDate":{"$date":"2026-05-26T09:37:10Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":55,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":105.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31282,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779788230}},"signature":{"hash":{"$binary":{"base64":"JVtl9pbcHSvQJCFoFoKc5eRSV4M=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22509,"lastWriteDate":{"$date":"2026-05-26T09:37:10Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":100.66666666666667,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '',[39m
+[31m      twitter: '',[39m
+[31m      instagram: '',[39m
+[31m      linkedin: '',[39m
+[31m      facebook: ''[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1',[39m
+[31m      twitter: '1',[39m
+[31m      instagram: '1',[39m
+[31m      linkedin: '1',[39m
+[31m      facebook: '1'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1',[39m
+[31m      twitter: '1',[39m
+[31m      instagram: '1',[39m
+[31m      linkedin: '1',[39m
+[31m      facebook: '1'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1',[39m
+[31m      twitter: '1',[39m
+[31m      instagram: '1',[39m
+[31m      linkedin: '1',[39m
+[31m      facebook: '1'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1few',[39m
+[31m      twitter: '1f',[39m
+[31m      instagram: '1f',[39m
+[31m      linkedin: '1f',[39m
+[31m      facebook: '1f'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1few',[39m
+[31m      twitter: '1f',[39m
+[31m      instagram: '1f',[39m
+[31m      linkedin: '1f',[39m
+[31m      facebook: '1f'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `profiles.findOneAndUpdate()` buffering timed out after 10000ms[39m
+[31merror[39m: [31mFailed to connect to MongoDB getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net[39m {"cause":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779854558}},"signature":{"hash":{"$binary":{"base64":"wxcgNz0nGJuB1EpMi+iEI+8Ttjg=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22108,"lastWriteDate":{"$date":"2026-05-27T04:02:38Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":57,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":114.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31020,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779854558}},"signature":{"hash":{"$binary":{"base64":"wxcgNz0nGJuB1EpMi+iEI+8Ttjg=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22109,"lastWriteDate":{"$date":"2026-05-27T04:02:38Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":53,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":103,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779854558}},"signature":{"hash":{"$binary":{"base64":"wxcgNz0nGJuB1EpMi+iEI+8Ttjg=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22108,"lastWriteDate":{"$date":"2026-05-27T04:02:38Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":57,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":114.33333333333333,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31020,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779854558}},"signature":{"hash":{"$binary":{"base64":"wxcgNz0nGJuB1EpMi+iEI+8Ttjg=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22109,"lastWriteDate":{"$date":"2026-05-27T04:02:38Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":53,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":103,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1few',[39m
+[31m      twitter: '1f',[39m
+[31m      instagram: '1f',[39m
+[31m      linkedin: '1f',[39m
+[31m      facebook: '1f'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 409 - Msg: This email hungdz56200510@gmail.com already exists[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[[39m
+[31m  ValidationError {[39m
+[31m    target: CreateProfileDto {[39m
+[31m      company: 'test',[39m
+[31m      location: 'Ha Noi',[39m
+[31m      website: 'https://test.com',[39m
+[31m      bio: 'test bio',[39m
+[31m      skills: 'NodeJS, TypeScript',[39m
+[31m      status: 'Developer',[39m
+[31m      youtube: '1few',[39m
+[31m      twitter: '1f',[39m
+[31m      instagram: '1f',[39m
+[31m      linkedin: '1f',[39m
+[31m      facebook: '1f'[39m
+[31m    },[39m
+[31m    value: undefined,[39m
+[31m    property: undefined,[39m
+[31m    children: [],[39m
+[31m    constraints: {[39m
+[31m      unknownValue: 'an unknown value was passed to the validate function'[39m
+[31m    }[39m
+[31m  }[39m
+[31m][39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `profiles.findOne()` buffering timed out after 10000ms[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Schema hasn't been registered for model "user".[39m
+[31mUse mongoose.model(name, schema)[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: profile validation failed: experience.0.from: Path `from` is required., experience.0.company: Path `company` is required., experience.0.title: Path `title` is required.[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: profile validation failed: experience.0.from: Path `from` is required., experience.0.company: Path `company` is required., experience.0.title: Path `title` is required.[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "me6a166eed83b267850bc19a9d" (type string) at path "user" for model "profile"[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Expected property name or '}' in JSON at position 2 (line 2 column 1)[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net[39m {"cause":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779875522}},"signature":{"hash":{"$binary":{"base64":"amFF8ARhM6B3AmGqUwrGMkCNHtA=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22216,"lastWriteDate":{"$date":"2026-05-27T09:52:02Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":56,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":128.66666666666666,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31328,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779875526}},"signature":{"hash":{"$binary":{"base64":"IXadIAGdutel8RoOc46OEKV8kz8=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":26645,"lastWriteDate":{"$date":"2026-05-27T09:52:06Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":103,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779875522}},"signature":{"hash":{"$binary":{"base64":"amFF8ARhM6B3AmGqUwrGMkCNHtA=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":22216,"lastWriteDate":{"$date":"2026-05-27T09:52:02Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","minRoundTripTime":56,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":128.66666666666666,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az2","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":4,"processId":{"$oid":"6a10ba7cdbedc00476b6f6cd"}},"type":"RSSecondary"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31328,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":{"clusterTime":{"$timestamp":{"i":1,"t":1779875526}},"signature":{"hash":{"$binary":{"base64":"IXadIAGdutel8RoOc46OEKV8kz8=","subType":"00"}},"keyId":7606464553836085000}},"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":["ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017"],"iscryptd":false,"lastUpdateTime":26645,"lastWriteDate":{"$date":"2026-05-27T09:52:06Z"},"logicalSessionTimeoutMinutes":30,"maxBsonObjectSize":16777216,"maxMessageSizeBytes":48000000,"maxWireVersion":25,"maxWriteBatchSize":100000,"me":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","minRoundTripTime":52,"minWireVersion":0,"passives":[],"primary":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","roundTripTime":103,"setName":"atlas-te8wol-shard-0","setVersion":83,"tags":{"availabilityZone":"apse1-az3","cacheState":"READY","diskState":"READY","nodeType":"ELECTABLE","provider":"AWS","region":"AP_SOUTHEAST_1","workloadType":"OPERATIONAL"},"topologyVersion":{"counter":3,"processId":{"$oid":"6a10bf0615a7e90a21b4dc35"}},"type":"RSSecondary"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-gqck4yc-shard-00-01.mpalqor.mongodb.net\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31026,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31003,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30736,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31026,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31003,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30736,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31245,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31224,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30901,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31245,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31224,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30901,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31374,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31364,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31077,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31374,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31364,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31077,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31312,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31019,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31307,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31312,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31019,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31307,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `users.find()` buffering timed out after 10000ms[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31489,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31439,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31195,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31489,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31439,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31195,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31447,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31401,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31446,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31447,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31401,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":31446,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[31merror[39m: [31mFailed to connect to MongoDB Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m {"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30867,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30853,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30863,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-00.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30867,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-01.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30853,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017":{"$clusterTime":null,"address":"ac-gqck4yc-shard-00-02.mpalqor.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":30863,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-te8wol-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/node_modules/mongoose/lib/connection.js:1111:11)\n    at async App.connectToDatabase (/Users/redstore/Documents/Backend-2026/TEDU_SOCIAL/src/app.ts:69:7)"}
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Operation `users.find()` buffering timed out after 10000ms[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: User is not exists[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: There is no profile for this user[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 404 - Msg: User is not exists[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[32minfo[39m: [32mApp is listening on the port 3002[39m
+[32minfo[39m: [32mConnected to MongoDB successfully[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m

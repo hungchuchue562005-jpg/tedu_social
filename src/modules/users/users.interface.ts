@@ -1,7 +1,7 @@
 export default interface IUser {
     _id: string;
-    first_Name: string;
-    last_Name: string;
+    first_name: string;
+    last_name: string;
     email: string;
     password: string;
     avatar: string;

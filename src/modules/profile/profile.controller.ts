@@ -1,0 +1,240 @@
+import { NextFunction, Request, Response } from 'express';
+
+import ProfileService from './profile.service';
+import CreateProfileDto from './dtos/create_profile.dto';
+import { IProfile } from './profile.interface';
+import AddExperienceDto from './dtos/add_experience.dto';
+import AddEducationDto from './dtos/add_education.dto';
+
+class ProfileController {
+  private profileService = new ProfileService();
+
+  public getCurrentProfile = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const userId = req.user.id;
+      const resultObj: IProfile = await this.profileService.getCurrentProfile(
+        userId
+      );
+      res.status(200).json(resultObj);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getByUserId = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const userId: string = req.params.id;
+    try {
+      const profileData: IProfile = await this.profileService.getProfileByUserId(
+        userId
+      );
+      res.status(200).json({ data: profileData, message: 'success' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getByProfileId = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const profileId: string = req.params.id;
+    try {
+      const profileData: IProfile = await this.profileService.getProfileById(
+        profileId
+      );
+      res.status(200).json({ data: profileData, message: 'success' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+   public getAllProfiles = async (
+    req: Request,
+    res: Response, 
+    next: NextFunction
+  ) => {
+    try {
+      const resultObj: IProfile[] = await this.profileService.getAllProfiles();
+      res.status(200).json(resultObj);
+    } catch (error) {
+      next(error);
+    }
+  };
+  public createProfile = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const userData: CreateProfileDto = req.body;
+    const userId = req.user.id;
+    try {
+      const createUserData: IProfile = await this.profileService.createProfile(
+        userId,
+        userData
+      );
+      res.status(201).json({ data: createUserData });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public deleteProfile = async (
+    req: Request <{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const userId: string = req.params.id;
+
+    try {
+      await this.profileService.deleteProfile(userId);
+      res.status(200);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public createExperience = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const data: AddExperienceDto = req.body;
+    const userId = req.user.id;
+    try {
+      const createUserData: IProfile = await this.profileService.addExperience(
+        userId,
+        data
+      );
+      res.status(201).json(createUserData);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+
+ public deleteExperience = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const expId: string = req.params.exp_id as string;
+
+    try {
+      const profile = await this.profileService.deleteExperience(
+        req.user.id,
+        expId
+      );
+      res.status(200).json(profile);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+      public createEducation = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const data: AddEducationDto = req.body;
+    const userId = req.user.id;
+    try {
+      const createUserData: IProfile = await this.profileService.addEducation(
+        userId,
+        data
+      );
+      res.status(201).json(createUserData);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public deleteEducation = async (
+    req: Request <{ edu_id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const eduId: string = req.params.edu_id;
+
+    try {
+      const profile = await this.profileService.deleteEducation(
+        req.user.id,
+        eduId
+      );
+      res.status(200).json(profile);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public follow = async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(501).json({ message: 'follow is not implemented' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public unFollow = async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(501).json({ message: 'unFollow is not implemented' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public addFriend = async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(501).json({ message: 'addFriend is not implemented' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public unFriend = async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(501).json({ message: 'unFriend is not implemented' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public acceptFriendRequest = async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(501).json({ message: 'acceptFriendRequest is not implemented' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+
+}
+
+export default ProfileController;

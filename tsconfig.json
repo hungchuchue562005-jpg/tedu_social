@@ -28,5 +28,9 @@
       "@core/*": ["./src/core/*"],
       "@modules/*": ["./src/modules/*"]
     }
-  }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "ts-node": {
+  "files": true
+}
 }

@@ -44,23 +44,30 @@ class UserService {
       if(isEmptyObject(model)) {
         throw new HttpException(400, 'Model is empty');
       }
-      const user = await this.userSchema.findById(userId) .exec();
+      const user = await this.userSchema.findById(userId).exec();
         if(!user) {
             throw new HttpException(400, `User id is not exist`);
         }
-
         let avatar = user.avatar; 
         if(user.email === model.email)
           {
           throw new HttpException(400,' You must using the difference email');
           }
-          else{
-               avatar = gravatar.url(model.email, {
+           const checkEmailExists = await this.userSchema
+            .findOne({
+              email: model.email,
+              _id: { $ne: user._id },
+            })
+            .exec();
+
+          if (checkEmailExists) {
+            throw new HttpException(400, 'Your email has been used by another user');
+          }
+            avatar = gravatar.url(model.email, {
             size: '200',
              rating: 'g',
             default: 'mm'
             });
-          }
        
         let updateUserById;
         if (model.password){
@@ -77,7 +84,7 @@ class UserService {
           updateUserById = await this.userSchema.findByIdAndUpdate( userId,{
             ...model,
             avatar :avatar,
-          }
+          }, {new: true}
           ).exec();
         }
         if (!updateUserById) throw new HttpException (409, 'You are not an user');
