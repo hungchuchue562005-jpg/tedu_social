@@ -34,15 +34,20 @@ import Route from '@/core/interface/routes.interface';
         '/',
         this.postController.getAllPosts);
 
+          this.router.get(
+      '/:id',
+      this.postController.getPostById
+    );
+
          this.router.get(
     '/paging/:page',
     this.postController.getAllPaging
     );
-    this.router.get(
-      '/:id',
-      this.postController.getPostById
+  
+        this.router.delete(
+      '/:id',authMiddleware,
+      this.postController.deletePost
     );
-   
   }
 }
 

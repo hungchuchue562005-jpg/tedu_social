@@ -687,3 +687,5 @@
 [31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
 [31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
 [31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "post"[39m
+[31merror[39m: [31m[ERROR] - Status: 500 - Msg: Cannot read properties of undefined (reading 'id')[39m
+[31merror[39m: [31m[ERROR] - Status: 400 - Msg: Post is not found[39m
